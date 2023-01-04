@@ -18,6 +18,6 @@ provider "azurerm" {
 
 
 resource "azurerm_resource_group" "example" {
-  name     = "wc"
+  name     = "wc2"
   location = "West Europe"
 }
