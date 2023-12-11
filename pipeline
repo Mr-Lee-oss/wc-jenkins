@@ -1,0 +1,12 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('clone') {
+            steps {
+                echo 'Clone'
+                git branch: 'main', url: 'https://github.com/Mr-Lee-oss/wc-jenkins.git'
+            }
+        }
+    }
+}
